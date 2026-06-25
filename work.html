@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='work.css') }}">
+</head>
+<body>
+    <div class="Window-Gray">
+        <form action="/send_to_telegram" method="post">
+            <button class="GroveStr Center" onclick="window.location.href='/index.html'">Войти</button>
+            <input class="Rifle" type="text" name="name" placeholder="Как к вам обращаться?">
+            <input class="Request" type="text" name="Tg" placeholder="Какой ваш Telegram (username)?">
+            <input class="Js" type="text" name="comment" placeholder="Какой сайт вам нужен?">
+            <input class="Ken" type="text" name="Gender" placeholder="Ваш пол? (Муж/Жен)">
+            <h1 class="text">Напишите о себе</h1> 
+        </form>
+    </div>
+</body>
+</html>
