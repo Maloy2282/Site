@@ -1,0 +1,150 @@
+.GroveStr {
+    border: none;
+    cursor: pointer;
+
+    padding: 12px 24px;
+    border-radius: 8px;
+
+    background: linear-gradient(135deg, red 0%, darkred 100%);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.11);
+    transition: all 0.3s ease;
+
+    margin-left: -50px;
+    margin-top: 225px;
+    position: absolute;
+
+    z-index: 10;
+}
+
+.GroveStr:hover {
+    transform: scale(1.10);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: gray;
+    min-height: 100vh;
+}
+
+.Window-Gray {
+    position: fixed;
+    top: 476px;
+    left: 876px;
+    transform: translate(-50%, -50%);
+
+    width: 1100px;
+    height: 600px;
+    border-radius: 35px;
+
+    background: linear-gradient(darkgray);
+    box-shadow: 0 1opx 30px rgba(0, 0, 0, 0.05);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-weight: bold;
+
+    z-index: 1;
+}
+
+.text {
+    color: white;
+    margin-top: -250px;
+    margin-left: -150px;
+    position: absolute;
+}
+
+.Rifle {
+    margin-top: -150px;
+    margin-left: -200px;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+
+    width: 35%;
+    padding: 5px 10px;
+
+    border: 2px solid grey;
+    border-radius: 40px;
+
+    font-family: inherit;
+    font-size: 15px;
+    color: #333333;
+    background-color: white;
+
+    transition: all 0.25s ease;
+    position: absolute;
+}
+
+.Request {
+    margin-top: -75px;
+    margin-left: -200px;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+
+    width: 35%;
+    padding: 5px 10px;
+
+    border: 2px solid grey;
+    border-radius: 40px;
+
+    font-family: inherit;
+    font-size: 15px;
+    color: #333333;
+    background-color: white;
+
+    transition: all 0.25s ease;
+    position: absolute;
+}
+
+.Js {
+    margin-top: 0px;
+    margin-left: -200px;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+
+    width: 35%;
+    padding: 5px 10px;
+
+    border: 2px solid grey;
+    border-radius: 40px;
+
+    font-family: inherit;
+    font-size: 15px;
+    color: #333333;
+    background-color: white;
+
+    transition: all 0.25s ease;
+    position: absolute;
+}
+
+.Ken {
+    margin-top: 75px;
+    margin-left: -200px;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+
+    width: 35%;
+    padding: 5px 10px;
+
+    border: 2px solid grey;
+    border-radius: 40px;
+
+    font-family: inherit;
+    font-size: 15px;
+    color: #333333;
+    background-color: white;
+
+    transition: all 0.25s ease;
+    position: absolute;
+}

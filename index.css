@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    border-left: 125px solid gray;
+    min-height: 100vh;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10%;
+} 
+
+.Mommy {
+    color: white;
+    position: absolute; 
+    left: 0; 
+    top: 50px;
+    font-size: 25px;
+    text-decoration: none; 
+    transition: all 0.3s ease;
+    display: inline-block;
+    padding: 5px 10px; 
+}
+
+.Mommy:hover {
+    font-size: 25px;
+    transform: scale(1.1);
+}
+
+.Mommy-second {
+    color: white;
+    position: absolute; 
+    left: 0; 
+    top: 70px;
+    font-size: 23px;
+    text-decoration: none; 
+    transition: all 0.3s ease;
+    display: inline-block;
+    padding: 1px; 
+}
+
+.Mommy-second:hover {
+    font-size: 23px;
+    transform: scale(1.1);
+}
+
+
+.Mommy-3 {
+    color: white;
+    position: absolute; 
+    left: 0; 
+    top: 35px;
+    font-size: 20px;
+    text-decoration: none; 
+    transition: all 0.3s ease;
+    display: inline-block;
+    padding: 45px; 
+}
+
+.Mommy-3:hover {
+    font-size: 30px;
+    transform: scale(1.15);
+}
+
+.Mommy-4 {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+    top: 150px;
+    font-size: 23px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    padding: 19px;
+}
+
+.Mommy-4:hover {
+    font-size: 23px;
+    transform: scale(1.1)
+}
+
+.Ballas {
+    text-indent: 260px;
+    padding-left: 260px;
+}
+
+.GreenSt {
+    text-indent: 1px;
+    padding-left: 1px;
+}
